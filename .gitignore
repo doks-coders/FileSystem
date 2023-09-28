@@ -1,0 +1,51 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+
+# Ignore user-specific files and settings
+*.user
+*.suo
+*.userprefs
+*.vscode
+
+# Ignore build and package management files
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.bak
+*.swp
+*.sln.docstates
+*.csproj.user
+*.userprefs
+*.dotCover
+*.resharper
+_ReSharper*
+
+# Ignore Visual Studio files and folders
+.vs/
+.vscode/
+*.sln.ide/
+*.suo
+*.user
+*.sln.docstates
+*.sln.ide-shutdown
+*.sln.ide-wip
+
+# Ignore JetBrains Rider files and folders
+.idea/
+*.sln.idea/
+*.resharper
+*.dotCover
+
+# Ignore test results
+TestResults/
+
+# Ignore miscellaneous files
+*.log
+Thumbs.db
